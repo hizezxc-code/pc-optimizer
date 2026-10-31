@@ -2,6 +2,19 @@
 
 Windows optimization scripts for gaming on Windows 10 and 11. They turn off some telemetry, background services and scheduled tasks, remove bundled apps, adjust the power plan and tune Nagle and QoS network settings. Useful for low-end PCs and gaming tweaks. Creates a restore point and includes `undo.bat` for rollback. Results depend on your hardware; test before and after. MIT licensed.
 
+## Features
+
+- Windows 10 and 11 gaming optimization in plain batch scripts, no installer and no binaries
+- Telemetry reduction: disables DiagTrack and related scheduled tasks
+- Background services: turns off SysMain (Superfetch) and Windows Search
+- Network tweaks for lower latency: Nagle algorithm off, QoS reserved bandwidth set to 0, network throttling index adjusted
+- Power plan switch to high performance
+- Removes bundled apps such as Bing, Copilot, Xbox overlays and Teams
+- Restore point before changes and `undo.bat` for full rollback
+- Every change is documented in [docs/WHAT_IT_CHANGES.md](docs/WHAT_IT_CHANGES.md)
+
+## Описание по-русски
+
 Набор батников для Windows 10 и 11. Отключает часть фоновых служб, телеметрию и игровые оверлеи, убирает встроенные приложения и подкручивает несколько сетевых параметров. Делался для игр.
 
 Результат зависит от железа и от того, что запущено в системе. FPS может вырасти немного, пинг может немного снизиться, а может не измениться совсем. Сначала лучше проверить на своей машине, а не верить обещаниям из чужих роликов.
