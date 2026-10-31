@@ -1,5 +1,7 @@
 # pc-optimizer
 
+Windows optimization scripts for gaming on Windows 10 and 11. They turn off some telemetry, background services and scheduled tasks, remove bundled apps, adjust the power plan and tune Nagle and QoS network settings. Useful for low-end PCs and gaming tweaks. Creates a restore point and includes `undo.bat` for rollback. Results depend on your hardware; test before and after. MIT licensed.
+
 Набор батников для Windows 10 и 11. Отключает часть фоновых служб, телеметрию и игровые оверлеи, убирает встроенные приложения и подкручивает несколько сетевых параметров. Делался для игр.
 
 Результат зависит от железа и от того, что запущено в системе. FPS может вырасти немного, пинг может немного снизиться, а может не измениться совсем. Сначала лучше проверить на своей машине, а не верить обещаниям из чужих роликов.
