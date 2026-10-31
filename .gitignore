@@ -1,0 +1,5 @@
+# Logs and backups created by the scripts
+*.log
+*.bak
+net_backup_*.reg
+net_state.txt
